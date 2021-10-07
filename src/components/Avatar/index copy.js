@@ -16,8 +16,7 @@ const Avatar = () => {
       }
     `
   )
-
-  return <Img fixed={avatarImage.childImageSharp.fixed} className="foo" />
+  return <Img fixed={avatarImage.childImageSharp.fixed} />
 }
 
 export default Avatar
